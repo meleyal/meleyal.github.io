@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<!--
+	High Res Theme v1.2.1 (3 Jan 2018)
+	http://highrestheme.tumblr.com/
+-->
+<html>
+
+<head>
+  <title>William Meleyal</title>
+  <meta name="warning" content="HC SVNT DRACONES" />
+  <meta name="viewport" content="width = device-width" id="viewport" />
+  <link rel="icon" href="assets/images/avatar_01d589cc8fd7_128.png" />
+  <link rel="stylesheet" href="assets/stylesheets/reset.2.8.1.yui.css">
+  <meta name="description" content="Code / Art / Nature / Music" />
+  <style type="text/css">
+    html,
+    body {
+      background: #ffffff;
+      color: #333333;
+      font: normal 11px menlo, 'andale mono', 'courier new', sans-serif;
+      line-height: 155%;
+    }
+
+    a {
+      color: #111111;
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: #111111;
+    }
+
+    strong,
+    b {
+      font-weight: bold;
+    }
+
+    em,
+    i {
+      font-style: italic;
+    }
+
+    q:before {
+      content: '“';
+    }
+
+    q:after {
+      content: '”';
+    }
+
+    div.regular_body,
+    div.quote_body,
+    div.caption,
+    div.conversation_line,
+    ul#following,
+    #disqus,
+    .tumblr_video_container,
+    #post_notes {
+      width: 700px;
+      margin: 0 auto;
+    }
+
+    div.regular_body,
+    div.quote_body,
+    div.caption,
+    div.conversation_line {
+      text-align: left;
+    }
+
+    h1,
+    h2,
+    ul#posts,
+    ul#pages,
+    div#pagers,
+    #header_image_div,
+    #blog_avatar_div,
+    div#footer,
+    div#post_notes,
+    ul#following,
+    div.quote div.caption {
+      text-align: center;
+    }
+
+    div.photo div.caption {
+      text-align: center;
+    }
+
+    div.photoset div.caption {
+      text-align: center;
+    }
+
+
+    div.quote_body {
+      text-align: center;
+    }
+
+    div.conversation_line {
+      text-align: center;
+    }
+
+    div.video div.caption {
+      text-align: center;
+    }
+
+    div.audio div.caption {
+      text-align: center;
+    }
+
+    h1,
+    h2,
+    div.content,
+    ul#pages,
+    ul#following,
+    #header_image_div,
+    #blog_avatar_div,
+    li.post,
+    div#pagers,
+    div#footer,
+    #disqus {
+      margin-top: 64px;
+    }
+
+    #blog_title,
+    #blog_description {
+      margin-top: calc(64px/2);
+    }
+
+    div#container {
+      margin-bottom: 64px;
+    }
+
+    #blog_avatar {
+      border-radius: 100%;
+    }
+
+    h1 a {
+      text-decoration: none;
+    }
+
+    div.date,
+    div#post_notes,
+    div.caption,
+    ul.tags {
+      margin-top: 1.5em;
+    }
+
+    h3,
+    div.content p {
+      margin-bottom: 1.5em;
+    }
+
+    div.photo_div,
+    div.photoset_div,
+    div.html_photoset,
+    #header_image_div,
+    div.album_art_div {
+      line-height: 0;
+    }
+
+    img.photo_img {
+      margin-bottom: 0.4em;
+      min-width: 0px;
+    }
+
+    div.photoset_div {
+      margin-top: 1.5em;
+    }
+
+    div.photoset {
+      margin-top: -1.5em;
+    }
+
+
+    img.photo_img {
+      max-width: 1110px;
+    }
+
+    div.date a {
+      color: #999999;
+      text-decoration: none;
+    }
+
+    div.date a:hover {
+      text-decoration: underline;
+    }
+
+    img.album_art_img {
+      margin-bottom: 1.5em;
+    }
+
+    blockquote {
+      border-left: 1px solid #999;
+      margin-left: 1em;
+      padding-left: 1em;
+      margin-bottom: 1em;
+    }
+
+    li.tag {
+      display: inline;
+      margin: 0 1em;
+    }
+
+    li.tag a {
+      text-decoration: none;
+      color: #666666;
+    }
+
+    #post_notes ol.notes li.tag {
+      margin: 0;
+    }
+
+    div.no_results {
+      font-style: italic;
+    }
+
+    img.asker_portrait {
+      position: relative;
+      bottom: -6px;
+      height: 20px;
+      width: 20px;
+    }
+
+    li.page {
+      display: inline;
+      margin: 0 2em;
+    }
+
+    div#post_notes img.avatar {
+      position: relative;
+      bottom: -4px;
+    }
+
+    li.followed {
+      display: inline;
+      line-height: 0;
+    }
+
+    li.followed a {
+      line-height: 0;
+    }
+
+    li.followed img {
+      width: 24px;
+      height: 24px;
+      margin: 2px;
+      vertical-align: middle;
+    }
+
+    li.post ul li {
+      list-style-type: disc;
+      list-style-position: outside;
+    }
+
+    li.post ol li {
+      list-style-type: decimal;
+      list-style-position: outside;
+    }
+
+    h1,
+    h3,
+    span.conversation_label {
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="blog_avatar_div"><a href="/"><img src="assets/images/avatar_01d589cc8fd7_128.png" alt="William Meleyal" id="blog_avatar"></a></div>
+    <h1 id="blog_title"><a href="/">William Meleyal</a></h1>
+    <h2 id="blog_description">Code / Art / Nature / Music</h2>
+    <ul id="posts">
+      <li class="post" id="post_169309189659">
+        <div class="audio content">
+          <div class="album_art_div">
+            <img src="assets/images/tumblr_p21i1p5cYX1x0wl1yo1_r1_1515083950_cover.png" class="album_art_img" />
+          </div>
+          <span id="audio_player_169309189659">
+            <div class="audio_player">
+              <audio src="assets/audio/tumblr_p21i1p5cYX1x0wl1yo1_r1.mp3" controls></audio>
+            </div>
+          </span>
+          <div
+            class="caption">
+            <p><b>sweep-01.mp3</b></p>
+            <p>&ldquo;<a href="https://github.com/meleyal/gen">Gen</a>&rdquo;
+              &ndash; Learning to program generative music</p>
+            <p>Present, Brighton</p>
+        </div>
+  </div>
+  </li>
+  <li class="post" id="post_169317513034">
+    <div class="photo content">
+      <div class="photo_div">
+        <a href="https://github.com/meleyal/The-Nature-of-Code">
+          <img src="assets/images/tumblr_p21udtuuAU1x0wl1yo1_1280.png" alt="walker_perlin_noise.png
+&ldquo;The Nature of Code&rdquo; &ndash; Learning to program generative graphics
+Present, Brighton" class="photo_img" />
+        </a>
+      </div>
+      <div class="caption">
+        <p><b>walker_perlin_noise.png</b></p>
+        <p>&ldquo;<a href="https://github.com/meleyal/The-Nature-of-Code">The Nature of Code</a>&rdquo;
+          &ndash; Learning to program generative graphics<br /></p>
+        <p>Present, Brighton</p>
+      </div>
+    </div>
+  </li>
+  <li class="post" id="post_169260295669">
+    <div class="photo content">
+      <div class="photo_div">
+        <a href="https://www.producthunt.com/posts/upsite-markdown">
+          <img src="assets/images/tumblr_p1z3yd02bo1x0wl1yo1_1280.gif" alt="Upsite
+Application
+Brighton, 2017" class="photo_img" />
+        </a>
+      </div>
+      <div class="caption">
+        <p><b><a href="https://www.producthunt.com/posts/upsite-markdown">Upsite</a></b></p>
+        <p>Application</p>
+        <p>Brighton, 2017</p>
+      </div>
+    </div>
+  </li>
+  <li class="post" id="post_169300012024">
+    <div class="audio content">
+      <div class="album_art_div">
+        <img src="assets/images/tumblr_p20yngH1uw1x0wl1yo1_1515058540_cover.jpg" class="album_art_img" />
+      </div>
+      <span id="audio_player_169300012024">
+        <div class="audio_player">
+          <audio src="assets/audio/tumblr_p20yngH1uw1x0wl1yo1.mp3" controls></audio>
+        </div>
+      </span>
+      <div
+        class="caption">
+        <p><b>&ldquo;Together&rdquo; &ndash; Las Monta&ntilde;as</b></p>
+        <p>&ldquo;<a href="https://las-montanas.bandcamp.com/">Las Monta&ntilde;as</a>&rdquo;</p>
+        <p>Vienna / Brighton, 2015&ndash;16</p>
+    </div>
+    </div>
+  </li>
+  <li class="post" id="post_169259930129">
+    <!-- 1.2 -->
+    <!-- /1.2 -->
+    <div class="video content">
+      <iframe width="500" height="375" id="youtube_iframe" src="https://www.youtube.com/embed/V7Q6P8Hb6GE?feature=oembed&amp;enablejsapi=1&amp;origin=https://safe.txmblr.com&amp;wmode=opaque" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <div
+        class="caption">
+        <p><b>&ldquo;&#9792;&rdquo; &ndash; Neon Gemini</b></p>
+        <p>&ldquo;<a href="https://neogem.bandcamp.com/">NeoGem &#9082;</a>&rdquo;</p>
+        <p>Video by&nbsp;Aoto Oouchi for the&nbsp;&ldquo;Hypertext&rdquo; Exhibition<br /></p>
+        <p>Beijing, 2016<br /></p>
+    </div>
+    </div>
+  </li>
+  <li class="post" id="post_169301356049">
+    <div class="photo content">
+      <div class="photo_div">
+        <a href="https://soundcloud.com/shadowofthewing/sets/shadow-of-the-wing">
+          <img src="assets/images/tumblr_p2123oaUuv1x0wl1yo1_r2_1280.png" alt="Shadow of the Wing
+Podcast
+Brighton, 2016" class="photo_img" /></a></div>
+      <div class="caption">
+        <p><b>Shadow of the Wing</b></p>
+        <p>Podcast</p>
+        <p>Brighton, 2016</p>
+      </div>
+    </div>
+  </li>
+  <li class="post" id="post_169260212384">
+    <div class="video content">
+      <iframe width="500" height="375" id="youtube_iframe" src="https://www.youtube.com/embed/WgdGhG0WbiU?feature=oembed&amp;enablejsapi=1&amp;origin=https://safe.txmblr.com&amp;wmode=opaque" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <div
+        class="caption">
+        <p><b>Birdhouse/Nuthouse</b></p>
+        <p>Performance</p>
+        <p>Vienna, 2015</p>
+    </div>
+    </div>
+  </li>
+  <li class="post" id="post_169258930319">
+    <div class="photo content">
+      <div class="photo_div">
+        <img src="assets/images/tumblr_p1z0tm3pZv1x0wl1yo1_r1_1280.jpg" alt="IMG_0396.jpg
+Vienna, 2014" class="photo_img" />
+      </div>
+      <div class="caption">
+        <p><b>IMG_0396.jpg</b></p>
+        <p>Vienna, 2014</p>
+      </div>
+    </div>
+  </li>
+  <li class="post" id="post_169261091314">
+    <div class="audio content">
+      <div class="album_art_div">
+        <img src="assets/images/tumblr_p1z5x77ChY1x0wl1yo1_1514976283_cover.png" class="album_art_img" />
+      </div>
+        <span id="audio_player_169261091314">
+          <div class="audio_player">
+            <audio src="assets/audio/tumblr_p1z5x77ChY1x0wl1yo1.mp3" controls></audio>
+          </div>
+        </span>
+      <div
+        class="caption">
+        <p><b>Der Teufel steckt im Detail</b></p>
+        <p>Soundtrack for a short film by Klemens Waldhuber</p>
+        <p>Vienna, 2014</p>
+    </div>
+    </div>
+  </li>
+  <li class="post" id="post_169301880644">
+    <div class="photo content">
+      <div class="photo_div">
+        <a href="https://github.com/meleyal/drone.coffee"><img src="assets/images/tumblr_p213gc7LRL1x0wl1yo1_r1_1280.png" alt="Drone.coffee
+Application
+Vienna, 2013" class="photo_img" />
+        </a>
+      </div>
+      <div class="caption">
+        <p><b>Drone.coffee</b></p>
+        <p>Application<br /></p>
+        <p>Vienna, 2013</p>
+      </div>
+    </div>
+  </li>
+  <li class="post" id="post_169305830189">
+    <div class="audio content">
+      <div class="album_art_div">
+        <img src="assets/images/tumblr_p21c85b2Go1x0wl1yo1_1515076133_cover.jpg" class="album_art_img" />
+      </div>
+      <span id="audio_player_169305830189">
+        <div class="audio_player">
+          <audio src="assets/audio/tumblr_p21c85b2Go1x0wl1yo1.mp3" controls></audio>
+        </div>
+      </span>
+      <div
+        class="caption">
+        <p><b><b>&ldquo;A &nbsp;S &nbsp;C &nbsp;E &nbsp;N &nbsp;D&rdquo; &ndash;&nbsp;</b>DoCoMo &ldquo;Touch&rdquo; &#12486;&#12451;</b>
+        </p>
+        <p>&ldquo;<a href="https://docomo.bandcamp.com/">Unlock 4 Generation</a>&rdquo;</p>
+        <p>Vienna, 2013</p>
+    </div>
+    </div>
+  </li>
+  <li class="post" id="post_169306821074">
+    <div class="audio content">
+      <div class="album_art_div">
+        <img src="assets/images/tumblr_p21e1caWIt1x0wl1yo1_1515078481_cover.jpg" class="album_art_img" />
+      </div>
+      <span id="audio_player_169306821074">
+        <div class="audio_player">
+          <audio src="assets/audio/tumblr_p21e1caWIt1x0wl1yo1.mp3" controls></audio>
+        </div>
+      </span>
+      <div
+        class="caption">
+        <p><b>&ldquo;Games&rdquo; &ndash;&nbsp;<b>Syrrup</b></b>
+        </p>
+        <p>&ldquo;<a href="https://illuminatedpaths.bandcamp.com/album/potion-vapors">Potion Vapors</a>&rdquo;</p>
+        <p>Vienna, 2013</p>
+    </div>
+    </div>
+  </li>
+  <li class="post" id="post_169302377854">
+    <div class="photo content">
+      <div class="photo_div">
+        <img src="assets/images/tumblr_p214ptPneB1x0wl1yo1_r4_1280.png" alt="Rebranding Europe
+Graphic Design
+Leicester, 2004" class="photo_img" />
+      </div>
+      <div class="caption">
+        <p><b>Rebranding Europe</b></p>
+        <p>Graphic Design</p>
+        <p>Leicester, 2004</p>
+      </div>
+    </div>
+  </li>
+  <li class="post" id="post_169302111224">
+    <div class="photo content">
+      <div class="photo_div">
+        <img src="assets/images/tumblr_p2141vKuyX1x0wl1yo1_1280.png" alt="Eclipse
+Animation
+Leicester, 2003" class="photo_img" />
+      </div>
+      <div class="caption">
+        <p><b>Eclipse</b></p>
+        <p>Animation</p>
+        <p>Leicester, 2003</p>
+      </div>
+    </div>
+  </li>
+  </ul>
+  <div id="pagers">
+    <p onclick="more()">loading&hellip;</p>
+  </div>
+  </div>
+  <script type="text/javascript" src="assets/javascripts/mootools.1.2.3.yui.js"></script>
+  <script type="text/javascript">
+    var permalink_page = false;
+
+
+    var tag = '';
+    var tag_page = false;
+
+
+    function resize_video(v) {
+      if (!v)
+        return;
+
+      try {
+        var video_width = parseInt(800);
+        var video_height = Math.round(video_width / (v.width / v.height));
+        v.width = video_width;
+        v.height = video_height;
+        v.setStyle('width', video_width + 'px');
+        v.setStyle('height', video_height + 'px');
+      } catch (e) {
+        console.log(e);
+      }
+    }
+
+    function resize_tumblr_video(v) {
+      if (!v)
+        return;
+
+      try {
+        var w = parseInt(v.getStyle('width'));
+        var h = parseInt(v.getStyle('height'));
+
+        var video_width = parseInt(800);
+        var video_height = Math.round(video_width / (w / h));
+
+        v.width = video_width;
+        v.height = video_height;
+
+        v.setStyle('width', video_width + 'px');
+        v.setStyle('height', video_height + 'px');
+
+        v.getElements('iframe').each(resize_video);
+      } catch (e) {
+        console.log(e);
+      }
+    }
+
+    function fix_highres_image(img) {
+      if (!img)
+        return;
+
+      try {
+        var a = img.getParent();
+        if (a && a.href && a.href.indexOf(document.domain + '/image/') != -1) {
+          a.href = img.title;
+          img.title = img.alt;
+        }
+      } catch (e) {
+        console.log(e);
+      }
+    }
+
+    function adjust_ios_viewport() {
+      var w1 = parseInt(700);
+      var w2 = parseInt(1110);
+      var w3 = parseInt(800);
+
+      var widest = w1 > w2 ? w1 : w2;
+      widest = w3 > widest ? w3 : widest;
+
+      var margin = parseInt(64);
+      var viewport_width = margin + widest + margin;
+      if (viewport_width > 768) {
+        try {
+          $('viewport').setProperty('content', 'width = ' + viewport_width);
+        } catch (e) {
+          console.log(e);
+        }
+      }
+    }
+
+    adjust_ios_viewport();
+
+    if (!permalink_page)
+      $$('img.photo_img').each(fix_highres_image);
+
+    $$('.video > object').each(resize_video);
+    $$('.video > embed').each(resize_video);
+    $$('.video > iframe').each(resize_video);
+    $$('.tumblr_video_container').each(resize_tumblr_video);
+
+    var current_page = 1;
+    var total_pages = 1;
+    var locked = false;
+
+    if (current_page == total_pages || total_pages == 0)
+      $('pagers').dispose();
+
+    var loaded_posts = [];
+    $$('li.post').each(function(li) {
+      loaded_posts.push(li.id);
+    });
+
+    function fix_flash_audio(js) {
+      if (!js)
+        return;
+
+      var lines = [];
+      try {
+        var newline = eval('\"\\' + 'n\"');
+        lines = js.split(newline);
+      } catch (e) {
+        console.log(e);
+      }
+
+      for (var i = 0; i < lines.length; i++) {
+        if (lines[i].contains('replace' + 'If' + 'Flash'))
+          eval(lines[i]);
+      }
+    }
+
+    var ajax = new Request.HTML({
+      evalScripts: false,
+      onFailure: function() {
+        locked = false;
+      },
+      onSuccess: function(tree, elements, html, js) {
+        elements.each(function(el) {
+          if (el.tagName == 'LI' && el.hasClass('post') && !loaded_posts.contains(el.id)) {
+            $('posts').adopt(el);
+            loaded_posts.push(el.id);
+
+            el.getElements('img.photo_img').each(fix_highres_image);
+            el.getElements('.video > object').each(resize_video);
+            el.getElements('.video > embed').each(resize_video);
+            el.getElements('.video > iframe').each(resize_video);
+            el.getElements('.tumblr_video_container').each(resize_tumblr_video);
+
+          }
+
+        });
+
+        try {
+          fix_flash_audio(js);
+        } catch (e) {
+          console.log(e);
+        }
+
+        current_page++;
+        locked = false;
+
+        if (current_page == total_pages)
+          $('pagers').dispose();
+      }
+    });
+
+    function more() {
+      if (!locked && current_page != total_pages && total_pages > 0) {
+        locked = true;
+        url = (tag_page ? '/tagged/' + tag : '') + '/page/' + (current_page + 1).toString();
+        return ajax.get(url);
+      }
+    }
+
+    function prox() {
+      var window_height = $(window).getSize().y;
+      var document_height = $(window).getScrollSize().y;
+      var scroll_position = $(window).getScroll().y;
+
+      if (document_height - (window_height + scroll_position) < 1600) {
+        more();
+      } else {
+        locked = false;
+      }
+    }
+
+    $(window).addEvent('resize', prox);
+    $(window).addEvent('scroll', prox);
+  </script>
+</body>
+
+</html>
