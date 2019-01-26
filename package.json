@@ -2,7 +2,9 @@
   "name": "meleyal.github.io",
   "description": "https://meleyal.com/",
   "scripts": {
-    "start": "serve -p 4000",
+    "start": "npm run watch | npm run serve ",
+    "serve": "serve -p 4000",
+    "watch": "onchange blog/*.js -- npm run build",
     "build": "docco blog/*.js --template blog/docco.jst --css '' --output ."
   },
   "repository": {
@@ -13,6 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "docco": "^0.8.0",
+    "onchange": "^5.2.0",
     "serve": "^10.1.1"
   }
 }
