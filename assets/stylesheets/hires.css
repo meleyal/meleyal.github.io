@@ -2,7 +2,7 @@ html,
 body {
   background: #ffffff;
   color: #333333;
-  font: normal 11px menlo, 'andale mono', 'courier new', sans-serif;
+  font: normal 14px Helvetica, sans-serif;
   line-height: 155%;
 }
 
@@ -11,7 +11,6 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
   color: #111111;
 }
 
@@ -26,11 +25,11 @@ i {
 }
 
 q:before {
-  content: '“';
+  content: "“";
 }
 
 q:after {
-  content: '”';
+  content: "”";
 }
 
 div.regular_body,
@@ -74,7 +73,6 @@ div.photoset div.caption {
   text-align: center;
 }
 
-
 div.quote_body {
   text-align: center;
 }
@@ -107,7 +105,7 @@ div#footer,
 
 #blog_title,
 #blog_description {
-  margin-top: calc(64px/2);
+  margin-top: calc(64px / 2);
 }
 
 div#container {
@@ -154,7 +152,6 @@ div.photoset_div {
 div.photoset {
   margin-top: -1.5em;
 }
-
 
 img.photo_img {
   max-width: 1110px;
@@ -239,10 +236,4 @@ li.post ul li {
 li.post ol li {
   list-style-type: decimal;
   list-style-position: outside;
-}
-
-h1,
-h3,
-span.conversation_label {
-  text-transform: uppercase;
 }
